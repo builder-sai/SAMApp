@@ -16,4 +16,4 @@ jobs:
         steps:
         - uses: actions/checkout@v2
         - name: Deploy
-          run: ${{ github.action_path }}/amplify-deploy.sh loginPOC main
+          run: ${{ github.action_path }}/.github/actions/amplify-deploy.sh loginPOC main
